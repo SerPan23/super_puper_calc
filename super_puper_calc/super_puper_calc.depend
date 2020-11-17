@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1605124149 source:h:\codes\dz\super_puper_calc\super_puper_calc\main.cpp
+1605167007 source:h:\codes\dz\super_puper_calc\super_puper_calc\main.cpp
 	"../func/calc.h"
 
-1605118635 h:\codes\dz\super_puper_calc\func\calc.h
+1605166547 h:\codes\dz\super_puper_calc\func\calc.h
+	<Windows.h>
 	<iostream>
 	<string>
 
-1604565377 source:h:\codes\dz\super_puper_calc\func\addition.cpp
+1605535923 source:h:\codes\dz\super_puper_calc\func\addition.cpp
 	"calc.h"
 
 1604560863 source:h:\codes\dz\super_puper_calc\func\ft_len.cpp
@@ -14,12 +15,12 @@
 
 1604560982 source:h:\codes\dz\super_puper_calc\func\convert_to_int.cpp
 
-1605117856 source:h:\codes\dz\super_puper_calc\func\subtraction.cpp
+1605535933 source:h:\codes\dz\super_puper_calc\func\subtraction.cpp
 	"calc.h"
 
 1605117726 source:h:\codes\dz\super_puper_calc\func\a_menche_b.cpp
 	"calc.h"
 
-1605123606 source:h:\codes\dz\super_puper_calc\func\multiplication.cpp
+1605164532 source:h:\codes\dz\super_puper_calc\func\multiplication.cpp
 	"calc.h"
 

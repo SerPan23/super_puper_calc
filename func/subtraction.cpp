@@ -75,7 +75,24 @@ string subtraction(string a, string b)
     int lena = ft_len(a);
     int lenb = ft_len(b);
     string otv;
-    if(lena >= lenb && a_menche_b(a, b) == 0)
+    if(a[0] == '-' && b[0] != '-')
+    {
+        a[0] = ' ';
+        otv = addition(a, b);
+    }
+    else if(a[0] != '-' && b[0] == '-')
+    {
+        b[0] = ' ';
+        otv = addition(a, b);
+        cout << "[" << otv << "]" << endl;
+    }
+    else if(a[0] == '-' && b[0] == '-')
+    {
+        b[0] = ' ';
+        a[0] = ' ';
+        otv = subtraction(a, b);
+    }
+    else if(lena >= lenb && a_menche_b(a, b) == 0)
         otv = suba(a, b, lena, lenb);
     else
         otv = subb(a, b, lena, lenb);
